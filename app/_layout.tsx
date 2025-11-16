@@ -10,7 +10,6 @@ export default function RootLayout() {
       <Stack>
         <Stack.Screen name="login" options={{ headerShown: false }} />
         <Stack.Screen name="(app)" options={{ headerShown: false }} />
-        {/* Adicione esta linha para o "gatekeeper" */}
         <Stack.Screen name="index" options={{ headerShown: false }} /> 
       </Stack>
     </AuthProvider>
